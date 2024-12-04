@@ -1,3 +1,7 @@
+// Question : Define a class Batch for an educational institute with properties batch code, course name, start date, student count, time, days and total number of batches. Provide appropriate methods to access properties.
+
+
+// Answer : 
 class Batch {
     int batchCode, studentCount, days;
     String courseName, startDate;
