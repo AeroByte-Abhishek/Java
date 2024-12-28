@@ -1,37 +1,38 @@
 class BookInfo{
-    int bookId, price;
+    private int bookId;
+    double price;
     String title, author;
 
-    void setBookId(int bookId) {
+    public void setBookId(int bookId) {
         this.bookId = bookId;
     }
-    int getBookId() {
+    public int getBookId() {
         return bookId;
     }
 
-    void setTitle(String title) {
+    public void setTitle(String title) {
         this.title = title;
     }
-    String getTitle() {
+    public String getTitle() {
         return title;
     }
 
-    void setAuthor(String author) {
+    public void setAuthor(String author) {
         this.author = author;
     }
-    String getAuthor() {
+    public String getAuthor() {
         return author;
     }
 
-    void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
-    int getPrice() {
+    public double getPrice() {
         return price;
     }
 
 
-    void showBookInfo(){
+    public void showBookInfo(){
         System.out.println("Book Id: " + bookId);
         System.out.println("Title of the book is: " + title);
         System.out.println("Author of the book is: " + author);
